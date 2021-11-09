@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(204, 170, 194);
+    
+}
+header{
+    background-color: hotpink
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(230, 129, 184);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0,2);
+    padding: 0px 5%;
+}
+nav ul {
+    padding: 40px;
+    list-style: none;
+    display: flex;
+}
+nav ul li a{
+    margin: 25px;
+    font-family: myriad pro regular;
+    text-decoration: none;
+}
+.order{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 95%; 
+    margin: 0 auto; 
+    padding: 50px 0;
+}
+.container{
+position: relative;
+width: 100%;
+margin: 50px;
+display: grid;
+grid-template-columns: 1fr 2fr;
+}
+.card{
+    display: flex;
+    justify-content: space-between; 
+}
+.summary{
+    background-color:plum; 
+    padding: 30px;
+    width: 250px;
+}
+td{
+    padding: 10px 0; 
+}
